@@ -1,0 +1,89 @@
+@media (max-width: 800px) {
+
+  .navscr .menu,
+  nav .menu {
+      display: block;
+      z-index: 99;
+      cursor: pointer;
+  }
+
+  .navscr .menu:hover,
+  nav .menu :hover {
+      color: white;
+  }
+
+  .blog-card {
+      flex-direction: column;
+      height: 500px;
+  }
+
+  .blogsection .blog-card img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  .blogsection .blog-card {
+      height: 500px;
+      overflow: hidden;
+  }
+
+  footer .container .footer-content {
+      flex-wrap: wrap;
+  }
+
+  footer .container .footer-content .contact-info,
+  footer .container .footer-content .social-media,
+  footer .container .footer-content .about-section {
+      flex-basis: 100%;
+  }
+
+  .navscr,
+  nav {
+      justify-content: space-between;
+      align-items: start;
+      height: auto;
+  }
+
+  .navscr ul,
+  nav ul {
+      flex-direction: column;
+      text-align: center;
+      height: 100px;
+      margin-top: 20px;
+      margin-left: -50px;
+  }
+
+  #menuitem {
+      display: none;
+  }
+
+  #menuitem1 {
+      display: none;
+  }
+
+  .navscr ul li,
+  nav ul li {
+      list-style: none;
+      margin: 10px 0em;
+      width: auto;
+  }
+
+  .navscr ul li a,
+  nav ul li a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      /* margin: 30px em; */
+      font-size: 1.2em;
+  }
+
+  .navscr ul li a:hover,
+  nav ul li a:hover {
+      border-bottom: 3px solid white;
+      border-bottom-right-radius: 10px;
+  }
+
+  .blogsection {
+      margin-top: 220px;
+  }
+}

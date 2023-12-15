@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Content */
+.container_tc {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #1da1f2;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.submission-form_tc {
+  margin-bottom: 20px;
+}
+
+.form-group_tc {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1da1f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-btn_tc {
+  background-color: #1da1f2;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn_tc:hover {
+  background-color: #1873b8;
+}
+
+/* Card Styles */
+.card-container_tc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_tc {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card_tc h3 {
+  color: #1da1f2;
+  margin-bottom: 10px;
+}
+
+.card_tc p {
+  color: #777777;
+}

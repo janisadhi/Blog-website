@@ -1,0 +1,67 @@
+.aboutus .abimg img {
+  height: 8em;
+  margin-top: 20px;
+}
+
+.aboutus .abimg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.abtext {
+  width: 70%;
+  text-align: center;
+}
+
+.abtext p {
+  margin: 1em 0em;
+  color: rgb(77, 75, 75);
+  font-size: large;
+}
+
+.abtext h1 {
+  font-weight: 100;
+  margin-top: 1em;
+  color: #1da1f2;
+}
+
+@media (max-width:800px) {
+  .abtext {
+      width: 90%;
+      text-align: center;
+  }
+}
+
+.aboutus-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 80px;
+}
+
+.aboutus-table th,
+.aboutus-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.aboutus-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .aboutus-table {
+      font-size: 14px;
+  }
+}

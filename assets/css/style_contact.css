@@ -1,0 +1,83 @@
+.arrow{
+   
+    display: flex;
+}
+.arrow a{
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 30px;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+    padding :10px;
+    &:hover{
+        background-color: #b1aeae;
+    }
+   
+}
+.contactsection{
+    background-image: url("/assets/images/undraw_contact_us_re_4qqt.svg");
+    height:100vh;
+    width:100%;
+    background-repeat:repeat-x;
+    background-position:left(120);
+}
+.container1 {
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    min-height: 450px;
+
+}
+.container1 h2{
+    margin-bottom: 1em;
+    font-weight: 100;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: #116192;
+        color:white;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .container1 {
+        width: 100%;
+        padding: 10px;
+    }
+}
